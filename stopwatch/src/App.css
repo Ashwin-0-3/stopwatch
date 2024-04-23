@@ -1,0 +1,29 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-image: url("./assets/stba.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+   background-image: url("./assets/ogst.jpg");
+   background-size: cover;
+   padding:20px;
+   text-align: center;
+   border-radius: 10px;
+}
+#t{
+    padding:10px;
+    font-size:70px;
+}
+button{
+    font-size: 30px;
+    padding:5px;
+    margin:10px;
+    border-color: blueviolet;
+    border-radius:20px;
+    cursor: pointer;
+}
